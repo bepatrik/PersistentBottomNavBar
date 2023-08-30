@@ -118,7 +118,7 @@ class BottomNavStyle3 extends StatelessWidget {
                   curve: navBarEssentials!.itemAnimationProperties?.curve ??
                       Curves.ease,
                   width: itemWidth,
-                  height: 4,
+                  height: 2,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     color: selectedItemActiveColor,
