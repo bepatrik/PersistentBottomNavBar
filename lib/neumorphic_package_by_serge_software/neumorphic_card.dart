@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 /// Based on the code by Ivan Cherepanov
 /// https://medium.com/flutter-community/neumorphic-designs-in-flutter-eab9a4de2059
 part of persistent_bottom_nav_bar;
@@ -54,7 +56,7 @@ class NeumorphicContainer extends StatelessWidget {
 
   @override
   Widget build(final BuildContext context) {
-    final color = decoration.color ?? Theme.of(context).backgroundColor;
+    final color = decoration.color ?? Theme.of(context).colorScheme.background;
     final emboss = curveType == CurveType.emboss;
 
     Color colorValue = color;
